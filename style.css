@@ -1,0 +1,571 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.nav-link{
+    color:#7D8;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw; /* Set width to 100% of viewport width */
+}
+
+.logo {
+    flex: 1; /* Logo aligned to the left */
+    margin-left: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.profile-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 90px;
+    object-fit: cover;
+}
+
+
+.profile-picture-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    color: #007bff;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    margin-top:0px;
+
+}
+.carousel-slide {
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-text {
+    color: #fff;
+    padding-left: 90px;
+    position: absolute;
+    bottom :0;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Align text to the left and in the center */
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.carousel-text h1 {
+    font-size: 46px;
+    margin-bottom: 0px;
+}
+
+.carousel-text author {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.carousel-text h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #dc582a;
+    margin-bottom: 0px;
+}
+
+.search-btn {
+    width: 30px;
+    margin: 0px auto;
+
+}
+
+input[type="text"] {
+    width: 1010px;
+    height:10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: px;
+    font-size: 16px;
+    outline: none;
+}
+.fa-solid{
+    overflow: auto;
+}
+.contain{
+    margin-top :30px;
+    gap:20px; 
+}
+.btn-1{
+width: 236.8px;
+height: 86px;
+padding: 10px 20px;
+border-radius: 10px;
+background-color: #dc582a;
+border:none;
+color: #fff;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+cursor: pointer;
+}
+
+.btn-2{
+    width: 236.8px;
+    height: 86px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color:#C4D600;
+    border:none;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+    }
+    
+    .btn-3{
+        width: 236.8px;
+        height: 86px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color:#DC582A;
+        border:none;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        cursor: pointer;
+        }
+        .path{  
+        padding-left: 50px;
+        }
+          #sidebar{
+            background-color: #fff;
+            padding:20px;
+            width:250px;
+          }  
+         #sidebar h6{
+            font-size:14px;
+            margin-bottom: 10px;
+         }
+         #sidebar label{
+            display: block;
+            margin-bottom: 10px;
+            font-size:15px;
+         }
+         #sidebar h3{
+            font-family: Poppins;
+             font-size: 22px;
+             font-weight: 600;
+                line-height: 33px;
+             letter-spacing: 0em;
+                text-align: left;
+
+         }
+         
+
+
+           /* Recipe card styles */
+#recipeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    
+}
+
+.recipe-card {
+    background-color: #fff;
+    /*border: 1px solid #ccc;*/
+    
+    border-radius: 19px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card-2 {
+    font-size: 13px;
+    
+}
+.recipe-card-2 img{
+    margin-left: 60px;
+}
+
+.recipe-info p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.recipe-card img{
+    max-width: 250px;
+    height: auto;
+}
+.recipe-time{
+    color:#DC582A;
+}
+.recipe-time img{
+    margin-left: 80px;
+    justify-content: space-between;
+}
+footer{
+    max-width: 1200px;
+    margin: 30px auto;
+    gap:10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+}
+footer li{
+    margin: 30px;
+    list-style-type:none;
+}
+
+
+.phara{
+    width:200px;
+    font-size:13px;
+    font-weight:20px;
+}
+/* Style for the search input */
+#searchInput {
+    padding: 1em; 
+    width: 98%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 1em; 
+    text-align: left;
+  }
+  
+  #searchInput::placeholder {
+    color: #aaa;
+    text-align: left;
+  }
+  
+  #searchInput:focus {
+    border-color: #5c98c9;
+    outline: none;
+  }
+  
+  
+  
+ 
+  
+  /* Style for the buttons */
+  .button-container button {
+    padding: 1em 2em;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: auto;
+  }
+  
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    margin: 30px auto;
+    max-width: 1200px;
+  }
+  
+  footer li {
+    margin: 30px;
+    list-style-type: none;
+  }
+  
+  .li2,
+  .li3 {
+    font-weight: bolder;
+  }
+  
+  .footer > div {
+    max-width: 300px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #social {
+    margin: 20px 10px;
+    text-align: center;
+  }
+  
+  .smGlobalBtn {
+    /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
+  }
+  
+  #social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+    align-items: center;
+  }
+  /* facebook button class*/
+  .facebookBtn {
+    background: #2a3342;
+  }
+  
+  .facebookBtn:before {
+    /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+  }
+  
+  .facebookBtn:hover {
+    color: #2a3342;
+    background: #fff;
+    border-color: #2a3342; /* change the border color on mouse hover */
+  }
+  
+  /* twitter button class*/
+  .twitterBtn {
+    background: #2a3342;
+  }
+  
+  .twitterBtn:before {
+    font-family: "FontAwesome";
+    content: "\f099"; /* add twitter icon */
+  }
+  
+  .twitterBtn:hover {
+    color: #2a3342;
+    background: #fff;
+    border-color: #2a3342;
+  }
+  
+  /* google plus button class*/
+  .googleplusBtn {
+    background: #2a3342;
+  }
+  
+  .googleplusBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0d5"; /* add googleplus icon */
+  }
+  
+  .googleplusBtn:hover {
+    color: #2a3342;
+    background: #fff;
+    border-color: #2a3342;
+  }
+  
+  /* linkedin button class*/
+  .linkedinBtn {
+    background: #2a3342;
+  }
+  
+  .linkedinBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0e1"; /* add linkedin icon */
+  }
+  
+  .linkedinBtn:hover {
+    color: #2a3342;
+    background: #fff;
+    border-color: #2a3342;
+  }
+  
+  /* pinterest button class*/
+  .pinterestBtn {
+    background: #2a3342;
+  }
+  
+  .pinterestBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0d2"; /* add pinterest icon */
+  }
+  
+  .pinterestBtn:hover {
+    color: #2a3342;
+    background: #fff;
+    border-color: #2a3342;
+  }
+  
+  /* tumblr button class*/
+  .tumblrBtn {
+    background: #2a3342;
+  }
+  
+  .tumblrBtn:before {
+    font-family: "FontAwesome";
+    content: "\f173"; /* add tumblr icon */
+  }
+  
+  .tumblrBtn:hover {
+    color: #2a3342;
+    background: #fff;
+    border-color: #2a3342;
+  }
+  
+  /* rss button class*/
+  .rssBtn {
+    background: #2a3342;
+  }
+  
+  .rssBtn:before {
+    font-family: "FontAwesome";
+    content: "\f09e"; /* add rss icon */
+  }
+  
+  .rssBtn:hover {
+    color: #2a3342;
+    background: #fff;
+    border-color: #2a3342;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 767px) {
+    .card {
+      width: 70%;
+    }
+  
+    .card-content {
+      text-align: center;
+    }
+  
+    .card h2 {
+      font-size: 1.2em; /* Adjust font size for heading on smaller screens */
+      width: 100%;
+    }
+  
+    .card p {
+      font-size: 0.9em; /* Adjust font size for paragraph on smaller screens */
+      width: 100%;
+    }
+    .recipe-container {
+      display: block;
+    }
+  
+    .button-container button {
+      display: block;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  
+    .footer div {
+      flex: 1 1 45%;
+      max-width: 45%;
+    }
+    .ratings-card {
+      display: block;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .footer div {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .transition {
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect for search cards */
+  .recipe-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Hover effect for buttons */
+  .button-container button:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Cursor hover effect for buttons */
+  .button-container button {
+    cursor: pointer;
+  }
+  
+  /* Hover effect for recipe cards */
+  .recipe-card:hover .image-container {
+    transform: scale(1.05);
+  }
+  
+  /* Hover effect for nav links */
+  nav a {
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffd700;
+  }
+  
+  /* Hover effect for show filter buttons */
+  #showAllBtn:hover,
+  #showNonVegBtn:hover,
+  #showVegBtn:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Cursor hover effect for show filter buttons */
+  #showAllBtn, #showNonVegBtn, #showVegBtn {
+    cursor: pointer;
+  }
+  
+  /* Hover effect for social media icons */
+  .smGlobalBtn:hover {
+    transform: translateY(-5px);
+  }
